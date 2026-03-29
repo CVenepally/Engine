@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{9f679145-2889-4eb9-887d-bf8681cb4ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{d25c986c-62df-4bf4-adb8-99e1a51316c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{2f771137-15fc-4e91-9b23-57c1692c980e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{f352d16d-da75-4ff1-af07-691ea0c01642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{6371a544-4070-4a4d-8c3e-a8496bc324b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{9543fb15-6daa-4095-96a5-7dcce5804b37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\fmod">
+      <UniqueIdentifier>{e5156620-44be-478f-b16a-fba32fee6108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\stb">
+      <UniqueIdentifier>{8a998972-edc2-4746-a7b1-c26940fd75fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\tinyXML2">
+      <UniqueIdentifier>{05086317-d8f9-4b8f-abb2-1784a4acfaaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{0e1f8ced-2a91-4138-b2b5-76099ff57a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\Noise">
+      <UniqueIdentifier>{629c568c-b0cc-4d40-b80e-46c91a2db512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\d3dx12">
+      <UniqueIdentifier>{5af77dfd-054d-4df7-84a9-b80cd3830a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\PIX">
+      <UniqueIdentifier>{0562b9cf-d0f6-4949-abcd-43a29409d250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JobSystem">
+      <UniqueIdentifier>{de172743-fc08-44e5-b66b-d83501630f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Common">
+      <UniqueIdentifier>{2e3718a8-2829-4918-863c-97a55c247d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Buffers">
+      <UniqueIdentifier>{7fa37093-3a91-4de1-969f-30fbb24a0b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Sprite">
+      <UniqueIdentifier>{62f1c5bd-91eb-4085-99f0-a8ddca633a2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\DX12 Specific">
+      <UniqueIdentifier>{479144b0-dbac-4e22-a5c6-d614adf03607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\DX12 Specific\RaytracingUtils">
+      <UniqueIdentifier>{55240d13-6298-47ef-b878-a871b9dd5ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\DX12 Specific\UploadBuffer">
+      <UniqueIdentifier>{0e2f06d8-c505-44c8-8cec-c3ad3e918c2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\DX12 Specific\Descriptors">
+      <UniqueIdentifier>{bb47bae9-fe7d-49b3-87bd-5c68b3746164}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Shader">
+      <UniqueIdentifier>{81626dd9-227d-4acd-b793-d19bb061026a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\DX12 Specific\Pipeline">
+      <UniqueIdentifier>{5b236b74-3518-48f9-97ea-23a5f39c72e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Lighting">
+      <UniqueIdentifier>{9b37da46-3841-472d-bae7-55f66bfc1ec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\Utils">
+      <UniqueIdentifier>{e5b93ea7-3e0b-4048-8061-14ae03e8460e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\2DMath">
+      <UniqueIdentifier>{5f6c03e0-ed9e-4eda-a79c-d0364e85aa44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\3DMath">
+      <UniqueIdentifier>{5dd5e27d-b9f2-40a0-9971-2b7025c9a584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Misc">
+      <UniqueIdentifier>{1244ab01-3ea6-4c27-a9ca-bceff08db898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\CurvesAndEasing">
+      <UniqueIdentifier>{fec088db-ba55-4a48-9009-182dd2c6f5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\MathUtils">
+      <UniqueIdentifier>{e351bc2f-0c5d-41eb-b81b-dfff8c1e9288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\DX12 Specific\BindlessUtils">
+      <UniqueIdentifier>{35aa963c-da86-4dcb-8515-43af6484f8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\imgui">
+      <UniqueIdentifier>{465c20ed-e35e-4260-8f4e-d70696d6b6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty\tinygltf">
+      <UniqueIdentifier>{6c08b20f-6fa9-4265-a56a-04b3bfdf2486}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\Rgba8.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Vertex_PCU.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ErrorWarningAssert.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\StringUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\VertexUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Time.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputSystem.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\AnalogJoystick.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\KeyButtonState.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\XboxController.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio\AudioSystem.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Image.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\tinyXML2\tinyxml2.cpp">
+      <Filter>ThirdParty\tinyXML2</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\XMLUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\NamedStrings.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\EngineCommon.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\HeatMaps.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\EventSystem.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\DevConsole.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\FileUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Clock.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Timer.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\DebugRender.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Vertex_PCUTBN.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\StaticMeshUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\StaticMesh.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\ModelLoader.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkSystem.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\Noise\RawNoise.cpp">
+      <Filter>ThirdParty\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\Noise\SmoothNoise.cpp">
+      <Filter>ThirdParty\Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\CommandList.cpp">
+      <Filter>Renderer\DX12 Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\CommandQueue.cpp">
+      <Filter>Renderer\DX12 Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ResourceStateTracker.cpp">
+      <Filter>Renderer\DX12 Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\AllocatorPage.cpp">
+      <Filter>Renderer\DX12 Specific\UploadBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\UploadBuffer.cpp">
+      <Filter>Renderer\DX12 Specific\UploadBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\DescriptorAllocationResult.cpp">
+      <Filter>Renderer\DX12 Specific\Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\DescriptorAllocator.cpp">
+      <Filter>Renderer\DX12 Specific\Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\DescriptorAllocatorPage.cpp">
+      <Filter>Renderer\DX12 Specific\Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\DynamicDescriptorHeap.cpp">
+      <Filter>Renderer\DX12 Specific\Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ShaderRecord.cpp">
+      <Filter>Renderer\DX12 Specific\RaytracingUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ShaderTable.cpp">
+      <Filter>Renderer\DX12 Specific\RaytracingUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\BottomLevelAS.cpp">
+      <Filter>Renderer\DX12 Specific\RaytracingUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\TopLevelAS.cpp">
+      <Filter>Renderer\DX12 Specific\RaytracingUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem\Job.cpp">
+      <Filter>JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem\JobSystem.cpp">
+      <Filter>JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="JobSystem\JobWorkerThread.cpp">
+      <Filter>JobSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteAnimDefintion.cpp">
+      <Filter>Renderer\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteDefinition.cpp">
+      <Filter>Renderer\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\SpriteSheet.cpp">
+      <Filter>Renderer\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ConstantBuffer.cpp">
+      <Filter>Renderer\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\IndexBuffer.cpp">
+      <Filter>Renderer\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\VertexBuffer.cpp">
+      <Filter>Renderer\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\DX12Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Shader.cpp">
+      <Filter>Renderer\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ShaderCompiler.cpp">
+      <Filter>Renderer\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RenderTarget.cpp">
+      <Filter>Renderer\DX12 Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RootSignature.cpp">
+      <Filter>Renderer\DX12 Specific\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\PipelineStateStream.cpp">
+      <Filter>Renderer\DX12 Specific\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\PipelineStateObject.cpp">
+      <Filter>Renderer\DX12 Specific\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Light.cpp">
+      <Filter>Renderer\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\BitmapFont.cpp">
+      <Filter>Renderer\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Camera.cpp">
+      <Filter>Renderer\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Texture.cpp">
+      <Filter>Renderer\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB2.cpp">
+      <Filter>Math\2DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Capsule2.cpp">
+      <Filter>Math\2DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Disc2.cpp">
+      <Filter>Math\2DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntVec2.cpp">
+      <Filter>Math\2DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\LineSegment2.cpp">
+      <Filter>Math\2DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\OBB2.cpp">
+      <Filter>Math\2DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Triangle2.cpp">
+      <Filter>Math\2DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vec2.cpp">
+      <Filter>Math\2DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\AABB3.cpp">
+      <Filter>Math\3DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Cylinder3D.cpp">
+      <Filter>Math\3DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntVec3.cpp">
+      <Filter>Math\3DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\LineSegment3.cpp">
+      <Filter>Math\3DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\OBB3.cpp">
+      <Filter>Math\3DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Plane3.cpp">
+      <Filter>Math\3DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vec3.cpp">
+      <Filter>Math\3DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\FloatRange.cpp">
+      <Filter>Math\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\IntRange.cpp">
+      <Filter>Math\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\RandomNumberGenerator.cpp">
+      <Filter>Math\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vec4.cpp">
+      <Filter>Math\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Sphere.cpp">
+      <Filter>Math\3DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\CurveUtils.cpp">
+      <Filter>Math\CurvesAndEasing</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\EasingFunctions.cpp">
+      <Filter>Math\CurvesAndEasing</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\EulerAngles.cpp">
+      <Filter>Math\MathUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Mat44.cpp">
+      <Filter>Math\MathUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MathUtils.cpp">
+      <Filter>Math\MathUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\RaycastUtils.cpp">
+      <Filter>Math\MathUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\StructuredBuffer.cpp">
+      <Filter>Renderer\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\BindlessDescriptorHeap.cpp">
+      <Filter>Renderer\DX12 Specific\BindlessUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\MaterialInfo.cpp">
+      <Filter>Renderer\DX12 Specific\BindlessUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\MeshInfo.cpp">
+      <Filter>Renderer\DX12 Specific\BindlessUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_demo.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_draw.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_impl_dx11.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_impl_dx12.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_impl_win32.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_stdlib.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_tables.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\imgui_widgets.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ImGuiHeap.cpp">
+      <Filter>Renderer\DX12 Specific\Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\GBuffer.cpp">
+      <Filter>Renderer\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\implot.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\implot_demo.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThirdParty\imgui\implot_items.cpp">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\ConvexHull2.cpp">
+      <Filter>Math\2DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\ConvexPoly2.cpp">
+      <Filter>Math\2DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Plane2.cpp">
+      <Filter>Math\2DMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\BufferUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\RendererUtils.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\NamedProperties.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\HashedCaseInsensitiveString.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Rgba8.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Vertex_PCU.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Renderer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ErrorWarningAssert.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\StringUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\VertexUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Time.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputSystem.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\AnalogJoystick.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\KeyButtonState.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\XboxController.hpp">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio\AudioSystem.hpp">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\EngineCommon.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Window\Window.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\stb\stb_image.h">
+      <Filter>ThirdParty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod.hpp">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_codec.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_common.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_dsp.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_dsp_effects.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_errors.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\fmod\fmod_output.h">
+      <Filter>ThirdParty\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Image.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\tinyXML2\tinyxml2.h">
+      <Filter>ThirdParty\tinyXML2</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\XMLUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\NamedStrings.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\HeatMaps.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\EventSystem.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DevConsole.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\FileUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Clock.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Timer.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\DebugRender.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Vertex_PCUTBN.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\StaticMeshUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\StaticMesh.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\ModelLoader.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkSystem.hpp">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\Noise\RawNoise.hpp">
+      <Filter>ThirdParty\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\Noise\SmoothNoise.hpp">
+      <Filter>ThirdParty\Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\d3dx12\d3dx12.h">
+      <Filter>ThirdParty\d3dx12</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\CommandList.hpp">
+      <Filter>Renderer\DX12 Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\CommandQueue.h">
+      <Filter>Renderer\DX12 Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ResourceStateTracker.hpp">
+      <Filter>Renderer\DX12 Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\AllocatorPage.hpp">
+      <Filter>Renderer\DX12 Specific\UploadBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\UploadBuffer.hpp">
+      <Filter>Renderer\DX12 Specific\UploadBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\DescriptorAllocationResult.hpp">
+      <Filter>Renderer\DX12 Specific\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\DescriptorAllocator.hpp">
+      <Filter>Renderer\DX12 Specific\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\DescriptorAllocatorPage.hpp">
+      <Filter>Renderer\DX12 Specific\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\DynamicDescriptorHeap.hpp">
+      <Filter>Renderer\DX12 Specific\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ShaderRecord.hpp">
+      <Filter>Renderer\DX12 Specific\RaytracingUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ShaderTable.hpp">
+      <Filter>Renderer\DX12 Specific\RaytracingUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\PIX\pix3.h">
+      <Filter>ThirdParty\PIX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\PIX\pix3_win.h">
+      <Filter>ThirdParty\PIX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\PIX\PIXEvents.h">
+      <Filter>ThirdParty\PIX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\PIX\PIXEventsCommon.h">
+      <Filter>ThirdParty\PIX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\PIX\PIXEventsLegacy.h">
+      <Filter>ThirdParty\PIX</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\BottomLevelAS.hpp">
+      <Filter>Renderer\DX12 Specific\RaytracingUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\TopLevelAS.hpp">
+      <Filter>Renderer\DX12 Specific\RaytracingUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem\Job.hpp">
+      <Filter>JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem\JobSystem.hpp">
+      <Filter>JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="JobSystem\JobWorkerThread.hpp">
+      <Filter>JobSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteSheet.hpp">
+      <Filter>Renderer\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteAnimDefintion.hpp">
+      <Filter>Renderer\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\SpriteDefinition.hpp">
+      <Filter>Renderer\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ConstantBuffer.hpp">
+      <Filter>Renderer\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\IndexBuffer.hpp">
+      <Filter>Renderer\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\VertexBuffer.hpp">
+      <Filter>Renderer\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\DX12Renderer.hpp">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Shader.hpp">
+      <Filter>Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ShaderCompiler.hpp">
+      <Filter>Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\DefaultShader.hpp">
+      <Filter>Renderer\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RendererUtils.hpp">
+      <Filter>Renderer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RayTracingUtils.hpp">
+      <Filter>Renderer\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RenderTarget.hpp">
+      <Filter>Renderer\DX12 Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\RootSignature.hpp">
+      <Filter>Renderer\DX12 Specific\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\PipelineStateStream.hpp">
+      <Filter>Renderer\DX12 Specific\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\PipelineStateObject.hpp">
+      <Filter>Renderer\DX12 Specific\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Light.hpp">
+      <Filter>Renderer\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\BitmapFont.hpp">
+      <Filter>Renderer\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Camera.hpp">
+      <Filter>Renderer\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Texture.hpp">
+      <Filter>Renderer\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ThreadSafeQueue.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB2.hpp">
+      <Filter>Math\2DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Capsule2.hpp">
+      <Filter>Math\2DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Disc2.hpp">
+      <Filter>Math\2DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntVec2.hpp">
+      <Filter>Math\2DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\LineSegment2.hpp">
+      <Filter>Math\2DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\OBB2.hpp">
+      <Filter>Math\2DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Triangle2.hpp">
+      <Filter>Math\2DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec2.hpp">
+      <Filter>Math\2DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\AABB3.hpp">
+      <Filter>Math\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Cylinder3D.hpp">
+      <Filter>Math\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntVec3.hpp">
+      <Filter>Math\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\LineSegment3.hpp">
+      <Filter>Math\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\OBB3.hpp">
+      <Filter>Math\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane3.hpp">
+      <Filter>Math\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec3.hpp">
+      <Filter>Math\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\FloatRange.hpp">
+      <Filter>Math\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\IntRange.hpp">
+      <Filter>Math\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\RandomNumberGenerator.hpp">
+      <Filter>Math\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vec4.hpp">
+      <Filter>Math\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Sphere.hpp">
+      <Filter>Math\3DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\CurveUtils.hpp">
+      <Filter>Math\CurvesAndEasing</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\EasingFunctions.hpp">
+      <Filter>Math\CurvesAndEasing</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Mat44.hpp">
+      <Filter>Math\MathUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathUtils.hpp">
+      <Filter>Math\MathUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\RaycastUtils.hpp">
+      <Filter>Math\MathUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\StructuredBuffer.hpp">
+      <Filter>Renderer\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\BindlessDescriptorHeap.hpp">
+      <Filter>Renderer\DX12 Specific\BindlessUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\MaterialInfo.hpp">
+      <Filter>Renderer\DX12 Specific\BindlessUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\MeshInfo.hpp">
+      <Filter>Renderer\DX12 Specific\BindlessUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imconfig.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imgui.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imgui_impl_dx11.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imgui_impl_dx12.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imgui_impl_win32.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imgui_internal.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imgui_stdlib.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imstb_rectpack.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imstb_textedit.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\imstb_truetype.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ImGuiHeap.hpp">
+      <Filter>Renderer\DX12 Specific\Descriptors</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\GBuffer.hpp">
+      <Filter>Renderer\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\implot.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\imgui\implot_internal.h">
+      <Filter>ThirdParty\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\tinygltf\json.hpp">
+      <Filter>ThirdParty\tinygltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\tinygltf\tiny_gltf.h">
+      <Filter>ThirdParty\tinygltf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThirdParty\stb\stb_image_write.h">
+      <Filter>ThirdParty\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\ConvexHull2.hpp">
+      <Filter>Math\2DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\ConvexPoly2.hpp">
+      <Filter>Math\2DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane2.hpp">
+      <Filter>Math\2DMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\BufferUtils.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\HashedCaseInsensitiveString.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\NamedProperties.hpp">
+      <Filter>Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Math\EulerAngles.hpp">
+      <Filter>Math\MathUtils</Filter>
+    </None>
+    <None Include="..\ThirdParty\imgui\imgui.natstepfilter">
+      <Filter>ThirdParty\imgui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="..\ThirdParty\imgui\imgui.natvis">
+      <Filter>ThirdParty\imgui</Filter>
+    </Natvis>
+  </ItemGroup>
+</Project>
