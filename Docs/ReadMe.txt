@@ -1,1 +1,1 @@
-Engine files for my SD Engine.
+Custom C++ Engine with a Direct3D 12 and Direct3D 11 renderer with raytracing support. To compile any of the other game projects, the entire folder needs to be in the same parent directory as the other project.
